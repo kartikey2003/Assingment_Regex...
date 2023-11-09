@@ -1,0 +1,317 @@
+Assingment--4
+
+answer=> 1
+
+#include <stdio.h>
+
+int
+main ()
+{
+  char alpha;
+  printf ("enter the charecture first : \n");
+  scanf ("%c", &alpha);
+  if (alpha == 'm')
+    {
+      printf ("male");
+
+    }
+  else
+    {
+      printf ("Invalid");
+
+    }
+
+
+  return 0;
+}
+----------------------------------------------------------
+
+Answer => 2
+
+
+#include <stdio.h>
+
+int main ()
+{
+  char alpha;
+  printf ("enter the charecture first : \n");
+  scanf ("%c", &alpha);
+ 
+  if(alpha == 'e' && 'r'&& 'y' &&'u' && 'i' && 'o' && 'p' && 'q' && 'w'){
+         printf("upper line of keyboard ");
+         
+  }else{
+         printf("lowerline of keyboard ");
+  }
+  return 0;
+}
+-------------------------------------------------------------
+
+Answer => 3 
+
+DOUBT
+
+--------------------------------------------------------------
+
+Answer => 4
+
+Ans 4.1 =>>
+
+#include <stdio.h>
+
+int
+main ()
+{
+  int a, b;
+  printf ("enter the first number : \n");
+  scanf ("%d", &a);
+
+  printf ("enter the second number : \n");
+  scanf ("%d", &b);
+
+  a = a + b;
+  b = a - b;
+  a = a - b;
+
+  printf ("enter the first number after swaped number : %d\n", a);
+  printf ("enter the second number after swaped number : %d\n", b);
+
+  return 0;
+}
+..............................................................................
+
+ans 4.2 =>>
+
+
+#include <stdio.h>
+
+int
+main ()
+{
+  int a, b,temp;
+  printf ("enter the first number : \n");
+  scanf ("%d", &a);
+
+  printf ("enter the second number : \n");
+  scanf ("%d", &b);
+
+  temp=a;
+  a=b;
+  b=temp;
+
+  printf ("enter the first number after swaped number : %d\n", a);
+  printf ("enter the second number after swaped number : %d\n", b);
+
+
+  return 0;
+}
+---------------------------------------------------------------------------
+
+Answer 5 =>>
+
+
+#include <stdio.h>
+
+int main ()
+{
+  int a;
+  printf ("enter the number : \n");
+  scanf ("%d", &a);
+  if(a%2==0){
+          printf ("the no. is even");
+  }else{
+         printf("the no. is odd");
+  }
+
+  return 0;
+}
+--------------------------------------------------------------------------------
+
+Answer 6 =>>
+
+#include <stdio.h>
+
+int main ()
+{
+  char alpha;
+  printf ("enter the charecture first : \n");
+  scanf ("%c", &alpha);
+ 
+  if(alpha == 'a' && 's' && 'd' && 'f' && 'g' && 'h' && 'j' && 'k' && 'l'){
+         printf("mid line of keyboard ");
+         
+  }else{
+         printf("not valid ");
+  }
+  return 0;
+}
+--------------------------------------------------------------------------------------
+
+Answer 7 =>>
+
+#include <stdio.h>
+
+int main ()
+{
+  char alpha;
+  printf ("enter the charecture first : \n");
+  scanf ("%c", &alpha);
+ 
+  if(alpha == 'z' && 'x' && 'c' && 'v' && 'b' && 'n' && 'n' && 'm' ){
+         printf("lower line of keyboard ");
+         
+  }else{
+         printf("not valid ");
+  }
+  return 0;
+}
+
+--------------------------------------------------------------------------------------------
+
+Answer 8 =>>
+
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enter the value of a:\n");
+	scanf("%d",&a);
+	if(a==1)
+	{
+		printf("sunday");
+	}
+	else if(a==2)
+	{
+		printf("monday");
+	}
+	else if(a==3)
+	{
+		printf("tuesday");
+	}
+	else if(a==4)
+	{
+		printf("wednesday");
+	}
+	else if(a==5)
+	{
+	    printf("Thursday");
+	}
+	else if(a==6)
+	{
+	    printf("Friday");
+	}
+	else if(a==7)
+	{
+	    printf("saturday");
+	}
+	else {
+		printf("not match ");
+	}
+    return 0;
+}
+-------------------------------------------------------------
+
+Answer 9 =>>
+
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enter the value of a:\n");
+	scanf("%d",&a);
+	if(a==1)
+	{
+		printf("jan");
+	}
+	else if(a==2)
+	{
+		printf("Feb");
+	}
+	else if(a==3)
+	{
+		printf("March");
+	}
+	else if(a==4)
+	{
+		printf("April");
+	}
+	else if(a==5)
+	{
+	    printf("Muy");
+	}
+	else if(a==6)
+	{
+	    printf("June");
+	}
+	else if(a==7)
+	{
+	    printf("July");
+	}
+        else if(a==8)
+	{
+	    printf("Aug");
+	}
+        else if(a==9)
+	{
+	    printf("Sept");
+	}
+        else if(a==10)
+	{
+	    printf("Oct");
+	}
+        else if(a==11)
+	{
+	    printf("Nov");
+	}
+        else if(a==12)
+	{
+	    printf("Dec");
+	}
+	else {
+		printf("not match ");
+	}
+    return 0;
+}
+-----------------------------------------------------------
+
+Answer 10 =>>
+
+#include<stdio.h>
+int main()
+{
+	char alpha;
+	printf("enter the charecture of a:\n");
+	scanf("%c",&alpha);
+	if(alpha==a)
+	{
+		printf("Apple");
+	}
+	else if(alpha==b)
+	{
+		printf("Ball");
+	}
+	else if(alpha==c)
+	{
+		printf("Cat");
+	}
+	else if(alpha==d)
+	{
+		printf("Dog");
+	}
+	else if(alpha==e)
+	{
+	    printf("Elephant");
+	}
+	else if(alpha==f)
+	{
+	    printf("Fish");
+	}
+	else {
+		printf("not match ");
+	}
+    return 0;
+}
+
+
+	
+
