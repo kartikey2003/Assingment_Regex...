@@ -1,0 +1,181 @@
+answer 1 =>>
+
+#include <stdio.h>
+
+int main()
+{
+     int s=1;
+       
+       while(s<=10){
+              printf(" %d",s);
+              s++;
+       }
+      
+
+    return 0;
+}
+
+
+-------------------------------------------------------------------
+
+Answer 2 =>>
+
+#include <stdio.h>
+
+int main()
+{
+     int s=1;
+       
+       while(s<=100){
+              printf(" %d",s);
+              s++;
+       }
+      
+
+    return 0;
+}
+
+---------------------------------------------------------------------
+
+Answer 3 =>>
+
+#include <stdio.h>
+
+int main()
+{
+     int s=50;
+       
+       while(s<=100){
+              printf(" %d",s);
+              s++;
+       }
+      
+
+    return 0;
+}
+
+------------------------------------------------------------------------
+
+Answer 4 =>>
+
+#include <stdio.h>
+
+int main()
+{
+     int s=500;
+       
+       while(s<=1000){
+              printf(" %d",s);
+              s++;
+       }
+      
+
+    return 0;
+}
+
+---------------------------------------------------------------------------
+
+Answer 5 =>>
+
+#include <stdio.h>
+
+int main()
+{
+     int s=34;
+       
+       while(s<=89){
+              printf(" %d",s);
+              s++;
+       }
+      
+
+    return 0;
+}
+
+----------------------------------------------------------------------------
+
+Answer 6 =>>
+
+#include <stdio.h>
+
+int main()
+{
+     int s,e;
+       printf("enter the start point : \n");
+       scanf("%d",&s);
+       
+       printf("enter the end point : \n");
+       scanf("%d",&e);
+       
+       while(s<=e){
+              printf(" %d",s);
+              s++;
+       }
+      
+
+    return 0;
+}
+
+----------------------------------------------------------------
+
+Answer 7 =>>
+
+#include <stdio.h>
+
+int main()
+{
+     int s=100;
+       
+       while(s>=1){
+              printf(" %d",s);
+              s--;
+       }
+      
+
+    return 0;
+}
+
+--------------------------------------------------------------------
+
+Answer 8 =>>
+
+#include <stdio.h>
+
+int main()
+{
+     int s=500;
+       
+       while(s>=50){
+              printf(" %d",s);
+              s--;
+       }
+      
+
+    return 0;
+}
+
+------------------------------------------------------------------------
+
+Answer 9 =>>
+
+#include <stdio.h>
+
+int main()
+{
+     int s,e;
+       printf("enter the start point : \n");
+       scanf("%d",&s);
+       
+       printf("enter the end point : \n");
+       scanf("%d",&e);
+       
+       while(s>=e){
+              printf(" %d",s);
+              s--;
+       }
+      
+
+    return 0;
+}
+
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
